@@ -13,7 +13,14 @@ puts "----------"
 # store2 = Store.where(id: 2)
 p @store1
 p @store2
-# store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Chang", last_name: "Li", hourly_rate: 60)
+@store1.employees.create(first_name: "C", last_name: "B", hourly_rate: 60)
+@store1.employees.create(first_name: "JC", last_name: "Cano", hourly_rate: 60)
+@store1.employees.create(first_name: "Sony", last_name: "Apple", hourly_rate: 60)
+@store1.employees.create(first_name: "Max", last_name: "Min", hourly_rate: 60)
+@store1.employees.create(first_name: "Max", last_name: "Tom", hourly_rate: 60)
+@store1.employees.create(first_name: "John", last_name: "Smieth", hourly_rate: 60)
 
 # employee1, employee2 = Employee.new, Employee.new
 # employee1.first_name, employee2.first_name = "Khurram", "Chang"

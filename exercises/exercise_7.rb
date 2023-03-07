@@ -10,9 +10,13 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
-new_store_name = gets.chomp
+# puts "Need a new store NAME: "
+# new_store_name = gets.chomp
 
-store7 = Store.new
-store7.name = new_store_name
+# store7 = Store.new
+# store7.name = new_store_name
 
-store7.save
+# store7.save
+
+@store1.employees.create(last_name: "Virani")
+puts Employee.all.count
