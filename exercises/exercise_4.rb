@@ -7,17 +7,17 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-store1, store2, store3 = Store.new, Store.new, Store.new
-store1.name, store2.name, store3.name = "Surrey", "Whistler", "Yaletown"
-store1.annual_revenue, store2.annual_revenue, store3.annual_revenue = 224000, 1900000, 430000
+store4, store5, store6 = Store.new, Store.new, Store.new
+store4.name, store5.name, store6.name = "Surrey", "Whistler", "Yaletown"
+store4.annual_revenue, store5.annual_revenue, store6.annual_revenue = 224000, 1900000, 430000
 
-store1.mens_apparel = false
-store1.womens_apparel, store2.mens_apparel, store2.womens_apparel, store3.mens_apparel, store3.womens_apparel = true, true, false, true, true
+store4.mens_apparel = false
+store4.womens_apparel, store5.mens_apparel, store5.womens_apparel, store6.mens_apparel, store6.womens_apparel = true, true, false, true, true
 
 
-store1.save
-store2.save
-store3.save
+store4.save
+store5.save
+store6.save
 
 stores = Store.all
 p stores.count
