@@ -9,11 +9,11 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
-store1 = Store.where(id: 1)
-store2 = Store.where(id: 2)
-p store1
-p store2
-store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+# store1 = Store.where(id: 1)
+# store2 = Store.where(id: 2)
+p @store1
+p @store2
+# store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 
 # employee1, employee2 = Employee.new, Employee.new
 # employee1.first_name, employee2.first_name = "Khurram", "Chang"

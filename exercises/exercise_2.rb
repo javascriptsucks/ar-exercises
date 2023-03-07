@@ -5,10 +5,10 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
-store1, store2 = Store.find_by(id: 1), Store.find_by(id: 2)
-p store1
-p store2
-store1.name = "Saskatoon"
-store1.save
+store11, store12 = Store.find_by(id: 1), Store.find_by(id: 2)
+p store11
+p store12
+store11.name = "Saskatoon"
+store11.save
 
 p Store.all
