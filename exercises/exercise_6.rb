@@ -19,8 +19,20 @@ p @store2
 @store1.employees.create(first_name: "JC", last_name: "Cano", hourly_rate: 60)
 @store1.employees.create(first_name: "Sony", last_name: "Apple", hourly_rate: 60)
 @store1.employees.create(first_name: "Max", last_name: "Min", hourly_rate: 60)
-@store1.employees.create(first_name: "Max", last_name: "Tom", hourly_rate: 60)
-@store1.employees.create(first_name: "John", last_name: "Smieth", hourly_rate: 60)
+@store2.employees.create(first_name: "Max", last_name: "Tom", hourly_rate: 60)
+@store2.employees.create(first_name: "Abe", last_name: "Sam", hourly_rate: 60)
+@store2.employees.create(first_name: "Colin", last_name: "Karen", hourly_rate: 60)
+
+@store2.employees.create(first_name: "Chad", last_name: "Obe", hourly_rate: 60)
+@store2.employees.create(first_name: "Chen", last_name: "Li", hourly_rate: 60)
+@store2.employees.create(first_name: "Ryan", last_name: "Black", hourly_rate: 60)
+@store2.employees.create(first_name: "Sonic", last_name: "Sensai", hourly_rate: 60)
+@store2.employees.create(first_name: "Quinn", last_name: "Senpai", hourly_rate: 60)
+@store2.employees.create(first_name: "Kate", last_name: "Liu", hourly_rate: 60)
+
+
+puts Employee.all.count
+
 
 # employee1, employee2 = Employee.new, Employee.new
 # employee1.first_name, employee2.first_name = "Khurram", "Chang"
